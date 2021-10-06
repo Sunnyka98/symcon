@@ -20,9 +20,11 @@ class MyApp extends StatelessWidget{
               primary: Colors.black)
         ),
         textTheme: TextTheme(
-          headline1: GoogleFonts.poppins(color: Colors.white, fontSize: 30,fontWeight: FontWeight.w600),
-          bodyText1: GoogleFonts.poppins(color: Colors.white, fontSize: 25, fontWeight: FontWeight.normal),
-          button: GoogleFonts.poppins(color: Colors.black, fontSize: 17,),
+          headline1: GoogleFonts.poppins(color: Colors.white, fontSize: 24,
+              fontWeight: FontWeight.w600),
+          bodyText1: GoogleFonts.poppins(color: Colors.white, fontSize: 20,
+              fontWeight: FontWeight.normal),
+          button: GoogleFonts.poppins(color: Colors.black,),
         )
 
       ),
